@@ -1,0 +1,22 @@
+/* #clip-path{
+    height:  40em;
+    width: 40em;
+    background: url("https://corporate.walmart.com/content/dam/corporate/images/global-responsibility/sustainability/planet/nature/businessfornature-banner.png");
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+} */
+
+#outdoors{
+    
+   
+    color: white;
+    height: 935px;
+    width: 1890px;
+    background: linear-gradient(
+90deg,
+rgba(0, 255, 13, 0.418) 0%,
+rgba(0, 255, 13, 0.185) 100%
+    ),
+    url("https://assets.weforum.org/article/image/responsive_large_0ZUBmNNVLRCfn3NdU55nQ00UF64m2ObtcDS0grx02fA.jpg");
+    background-size: cover;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 80%);
+}
